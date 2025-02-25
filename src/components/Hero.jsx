@@ -1,6 +1,5 @@
 import React from "react";
 import ConnectedDots from './ConnectedDots';
-import { Helmet } from 'react-helmet';
 
 const Hero = () => {
   return (
@@ -8,15 +7,6 @@ const Hero = () => {
       id="hero"
       className="h-screen relative flex items-center justify-center bg-gray-500 bg-cover bg-center bg-no-repeat"
     >
-      {/* Helmet per i meta tag */}
-      <Helmet>
-        <title>Brian Belaj - Sviluppatore Web</title>
-        <meta
-          name="description"
-          content="Sono uno sviluppatore web con esperienza nella creazione di siti web e applicazioni web moderne e performanti."
-        />
-      </Helmet>
-
       {/* Componente ConnectedDots */}
       <ConnectedDots />
 

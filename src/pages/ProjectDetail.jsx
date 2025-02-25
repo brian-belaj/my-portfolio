@@ -4,7 +4,6 @@ import { projects } from '../data/data'; // Importa i dati
 import Contact from '../components/Contact';
 import ReactMarkdown from 'react-markdown';
 import Navbar from '../components/Navbar';
-import { Helmet } from 'react-helmet';
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -16,10 +15,6 @@ const ProjectDetail = () => {
 
   return (
     <div>
-      <Helmet>
-        <title>{project.title} - Brian Belaj</title>
-        <meta name="description" content={project.description} />
-      </Helmet>
       <Navbar />
       {/* Hero con due colonne */}
       <section className="container mx-auto px-6 py-20">
