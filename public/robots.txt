@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brianbelaj.netlify.app/sitemap.xml
