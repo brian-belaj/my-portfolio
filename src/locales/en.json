@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "specialization": "Web Developer"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a front-end developer specializing in creating modern and high-performance websites. I help businesses and professionals build their online presence through customized, scalable, and well-optimized solutions. I develop tailored interfaces, paying attention to every detail to ensure a smooth and intuitive user experience. I work with HTML, CSS, JavaScript, and advanced frameworks to create functional and dynamic designs, optimized for speed and accessibility. If you need an effective and well-structured website, contact me to turn your idea into a concrete solution.",
+    "detail": "More info"
+  },
+  "projects": {
+    "sanlorenzo": {
+      "title": "Sanlorenzo Charter Fleet",
+      "description": "Sanlorenzo Charterfleet is a project where I applied my skills in developing custom WordPress themes...",
+      "detail": "More info"
+    },
+    "demetra": {
+      "title": "Centro Demetra",
+      "description": "For the centrodemetra.com project, I developed the entire graphic layout from scratch...",
+      "detail": "More info"
+    },
+    "crotti": {
+      "title": "Maria Gabriella Crotti",
+      "description": "For the shths-shahtoosh.com website, dedicated to high fashion...",
+      "detail": "More info"
+    },
+    "genera": {
+      "title": "Genera PMA",
+      "description": "For the generapma.it site, a clinic specialized in assisted reproduction...",
+      "detail": "More info"
+    }
+  },
+  "buttons": {
+    "title": "Discover More"
+  },
+  "contacts": {
+    "title": "Contact Me",
+    "description": "Fill out the form below to send me a message. I will get back to you as soon as possible!",
+    "form": {
+      "name": "Name",
+      "lastname": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message"
+  }
+}
+}

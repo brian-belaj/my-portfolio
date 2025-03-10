@@ -1,12 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { projects } from '../data/data'; // Importa i dati
+import { useProjects } from '../data/data'; // Importa useProjects
 import Contact from '../components/Contact';
-import ReactMarkdown from 'react-markdown';
 import Navbar from '../components/Navbar';
 
 const ProjectDetail = () => {
   const { id } = useParams();
+  const projects = useProjects(); // Ottieni la lista dei progetti
   const project = projects.find((p) => p.id === parseInt(id));
 
   if (!project) {

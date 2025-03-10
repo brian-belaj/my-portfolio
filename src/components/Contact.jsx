@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -69,9 +71,9 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-black bg-opacity-80">
       <div className="container mx-auto px-6">
-        <h2 className="font-orbitron text-3xl font-bold text-gray-800 text-center text-white">Contattami</h2>
+        <h2 className="font-orbitron text-3xl font-bold text-gray-800 text-center text-white">{t("contacts.title") }</h2>
         <p className="font-inter mt-4 text-gray-600 text-center text-white">
-          Compila il form qui sotto per inviarmi un messaggio. Ti risponderò il prima possibile!
+          {t('contacts.description')}
         </p>
 
         <form onSubmit={handleSubmit} className="mt-8 max-w-lg mx-auto">
@@ -80,7 +82,7 @@ const Contact = () => {
     {/* Nome */}
     <div>
       <label htmlFor="firstName" className="block text-white font-inter text-sm font-medium text-gray-700">
-        Nome <span className="text-red-500">*</span>
+        {t('contacts.form.name')} <span className="text-red-500">*</span>
       </label>
       <input
         type="text"
@@ -98,7 +100,7 @@ const Contact = () => {
     {/* Cognome */}
     <div>
       <label htmlFor="lastName" className="block text-white font-inter text-sm font-medium text-gray-700">
-        Cognome <span className="text-red-500">*</span>
+      {t('contacts.form.lastname')} <span className="text-red-500">*</span>
       </label>
       <input
         type="text"
@@ -117,7 +119,7 @@ const Contact = () => {
   {/* Email */}
   <div className="mb-4">
     <label htmlFor="email" className="block text-white font-inter text-sm font-medium text-gray-700">
-      Email <span className="text-red-500">*</span>
+    {t('contacts.form.email')} <span className="text-red-500">*</span>
     </label>
     <input
       type="email"
@@ -135,7 +137,7 @@ const Contact = () => {
   {/* Telefono */}
   <div className="mb-4">
     <label htmlFor="phone" className="block text-white font-inter text-sm font-medium text-gray-700">
-      Telefono
+    {t('contacts.form.phone')}
     </label>
     <input
       type="tel"
@@ -150,7 +152,7 @@ const Contact = () => {
   {/* Messaggio */}
   <div className="mb-4">
     <label htmlFor="message" className="block text-white font-inter text-sm font-medium text-gray-700">
-      Messaggio <span className="text-red-500">*</span>
+    {t('contacts.form.message')} <span className="text-red-500">*</span>
     </label>
     <textarea
       id="message"
@@ -171,7 +173,7 @@ const Contact = () => {
       type="submit"
       className="px-4 py-2 bg-white text-black font-semibold hover:bg-transparent hover:border hover:border-white hover:text-white transition duration-300"
     >
-      Invia Messaggio
+      {t('contacts.form.submit')}
     </button>
   </div>
 </form>

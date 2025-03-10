@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Progetti",
+    "about": "Chi sono",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "specialization": "Sviluppatore Web"
+  },
+  "about": {
+    "title": "Chi sono",
+    "description": "Sono  uno sviluppatore front-end specializzato nella realizzazione di siti web moderni e performanti. Aiuto aziende e professionisti a costruire la loro presenza online attraverso soluzioni personalizzate, scalabili e ben ottimizzate. Sviluppo interfacce su misura, curando ogni dettaglio per garantire un’esperienza utente fluida e intuitiva. Lavoro con HTML, CSS, JavaScript e framework avanzati per creare design funzionali e dinamici, ottimizzati per velocità e accessibilità. Se hai bisogno di un sito web efficace e ben strutturato, contattami per trasformare la tua idea in una soluzione concreta.",
+    "detail": "Scopri di più"
+  },
+  "projects": {
+    "sanlorenzo": {
+      "title": "Sanlorenzo Charter Fleet",
+      "description": "Sanlorenzo Charterfleet è un progetto che mi ha permesso di mettere in pratica le mie competenze nello sviluppo di temi WordPress personalizzati.\n\n**Cosa ho fatto:**\n- Sviluppo del Tema WordPress: Ho creato un tema WordPress da zero, senza utilizzare temi predefiniti o page builder, per garantire massima flessibilità e prestazioni ottimizzate.\n- Layout con Bootstrap: Ho utilizzato Bootstrap per creare un layout responsive e moderno, assicurandomi che il sito fosse perfettamente visualizzabile su qualsiasi dispositivo.\n- Gestione dei Dati con PHP: Ho implementato funzionalità personalizzate utilizzando PHP per gestire dinamicamente i dati, come la visualizzazione delle flotte di yacht e i dettagli dei contatti.\n- Ottimizzazione delle Prestazioni: Ho ottimizzato il codice e le risorse per garantire tempi di caricamento rapidi.\n- Integrazione di Funzionalità Avanzate: Ho integrato funzionalità come la prenotazione online e la gestione delle gallerie fotografiche.\n\n**Tecnologie Utilizzate:**\n- WordPress, Bootstrap, PHP, HTML/CSS/JavaScript, MySQL.\n\n**Risultati:**\n- Un sito web completamente personalizzato, che rispecchia l'eleganza e l'esclusività del brand SanLorenzo.\n- Miglioramento delle prestazioni e dell'usabilità, con feedback positivi da parte degli utenti finali.\n- Una soluzione scalabile e facile da gestire per il cliente.",
+      "detail": "Scopri di più"
+    },
+    "demetra": {
+      "title": "Centro Demetra",
+      "description": "Per il progetto centrodemetra.com, ho sviluppato l'intero layout grafico partendo da zero, senza l’utilizzo di temi preconfezionati, garantendo un design su misura e un'esperienza utente ottimizzata. Ho interagito direttamente con i dati di WordPress tramite PHP, personalizzando le funzionalità del sito per adattarle alle esigenze specifiche del cliente.\nUno degli aspetti più rilevanti del progetto è stato lo sviluppo di uno store locator avanzato, realizzato attraverso l'integrazione con le API di Google Maps. Questo sistema consente agli utenti di individuare facilmente le sedi del centro, filtrando i risultati in base alla posizione e migliorando così l’accessibilità e la fruibilità del servizio.\nDurante lo sviluppo, ho posto particolare attenzione alle prestazioni del sito, ottimizzando codice e risorse per garantire tempi di caricamento rapidi e una navigazione fluida. Il risultato è una piattaforma moderna, funzionale e scalabile, che unisce estetica e usabilità a un'infrastruttura solida e performante.",
+      "detail": "Scopri di più"
+    },
+    "crotti": {
+      "title": "Maria Gabriella Crotti",
+      "description": "Per il sito shths-shahtoosh.com, dedicato all'alta moda e alle creazioni esclusive di Maria Gabriella Crotti, ho curato lo sviluppo utilizzando un tema altamente personalizzabile e il page builder Elementor. Questo approccio ha permesso di realizzare un design raffinato ed elegante, in linea con l'esclusività del brand, valorizzando al meglio la bellezza e l'artigianalità degli scialli in pelo di Chiru.\nL'uso di Elementor ha consentito una gestione flessibile dei contenuti, permettendo aggiornamenti dinamici e un'organizzazione visiva che mette in risalto le collezioni e la filosofia del marchio. Ho ottimizzato il layout per garantire un'esperienza di navigazione fluida e intuitiva, con particolare attenzione alla resa estetica e alla compatibilità su tutti i dispositivi.\nIl risultato è un sito che combina eleganza e funzionalità, offrendo agli utenti un viaggio immersivo nell’universo esclusivo di Shths Shahtoosh.",
+      "detail": "Scopri di più"
+    },
+    "genera": {
+      "title": "Genera PMA",
+      "description": "Per il sito generapma.it, clinica specializzata in procreazione assistita, ho realizzato un completo restyling, trasformando un sito inizialmente basato su un tema con WP Bakery e un elevato numero di plugin in una soluzione interamente custom. L'obiettivo principale è stato migliorare sia le performance che la manutenibilità del sito, riducendo drasticamente il numero di plugin e sviluppando una struttura più leggera, scalabile ed efficiente.\nUna delle sfide più significative è stata l’ottimizzazione delle prestazioni: grazie a un codice più pulito e a interventi mirati su script e risorse, i valori dei Core Web Vitals sono passati da 4 a 60, garantendo un sito più veloce, fluido e user-friendly.\nIl nuovo sito non solo offre un'esperienza di navigazione più intuitiva e accessibile, ma è anche più stabile e performante, assicurando una gestione più efficiente dei contenuti e un impatto positivo sulla SEO e sull’esperienza utente.",
+      "detail": "Scopri di più"
+    }
+  },
+  "buttons": {
+    "title": "Scopri di più"
+  },
+  "contacts": {
+    "title": "Contattami",
+    "description": "Compila il form qui sotto per inviarmi un messaggio. Ti risponderò il prima possibile!",
+    "form": {
+      "name": "Nome",
+      "lastname": "Cognome",
+      "email": "Email",
+      "phone": "Telefono",
+      "message": "Messaggio",
+      "submit": "Invia Messaggio"
+  }
+}
+}
