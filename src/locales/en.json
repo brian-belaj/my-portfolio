@@ -16,22 +16,22 @@
   "projects": {
     "sanlorenzo": {
       "title": "Sanlorenzo Charter Fleet",
-      "description": "Sanlorenzo Charterfleet is a project where I applied my skills in developing custom WordPress themes...",
+      "description": "Sanlorenzo Charterfleet was a project that allowed me to apply my expertise in developing custom WordPress themes.\bWhat I Did:\bWordPress Theme Development: I built a WordPress theme from scratch, avoiding pre-made themes and page builders to ensure maximum flexibility and optimized performance.\bLayout with Bootstrap: I used Bootstrap to create a modern, responsive layout, ensuring the site displayed perfectly on any device.\bData Management with PHP: I implemented custom functionalities using PHP to dynamically manage data, such as yacht fleet displays and contact details.\bPerformance Optimization: I optimized the code and resources to ensure fast loading times.\bIntegration of Advanced Features: I incorporated features such as online booking and photo gallery management.\bTechnologies Used:\bWordPress, Bootstrap, PHP, HTML/CSS/JavaScript, MySQL.\bResults:\bA fully customized website that reflects the elegance and exclusivity of the Sanlorenzo brand.\bImproved performance and usability, with positive feedback from end users.\bA scalable and easy-to-manage solution for the client.",
       "detail": "More info"
     },
     "demetra": {
       "title": "Centro Demetra",
-      "description": "For the centrodemetra.com project, I developed the entire graphic layout from scratch...",
+      "description": "For the centrodemetra.com project, I designed the entire graphical layout from scratch, without using pre-made themes, ensuring a custom design and an optimized user experience. I directly interacted with WordPress data using PHP, customizing the site's functionalities to meet the client's specific needs.\nOne of the most significant aspects of the project was the development of an advanced store locator, achieved through integration with the Google Maps API. This system allows users to easily find the center’s locations, filtering results based on their position, thereby improving accessibility and service usability.\nDuring development, I paid particular attention to the site's performance, optimizing code and resources to ensure fast loading times and smooth navigation. The result is a modern, functional, and scalable platform that combines aesthetics and usability with a solid and high-performing infrastructure.",
       "detail": "More info"
     },
     "crotti": {
       "title": "Maria Gabriella Crotti",
-      "description": "For the shths-shahtoosh.com website, dedicated to high fashion...",
+      "description": "For the shths-shahtoosh.com website, dedicated to high fashion and the exclusive creations of Maria Gabriella Crotti, I handled the development using a highly customizable theme and the Elementor page builder. This approach enabled the creation of a refined and elegant design, aligning with the brand's exclusivity while highlighting the beauty and craftsmanship of Chiru wool shawls.\bThe use of Elementor allowed for flexible content management, enabling dynamic updates and a visual organization that enhances the collections and brand philosophy. I optimized the layout to ensure a smooth and intuitive browsing experience, with a strong focus on aesthetics and compatibility across all devices.\bThe result is a website that seamlessly blends elegance and functionality, offering users an immersive journey into the exclusive world of Shths Shahtoosh.",
       "detail": "More info"
     },
     "genera": {
       "title": "Genera PMA",
-      "description": "For the generapma.it site, a clinic specialized in assisted reproduction...",
+      "description": "Per il sito generapma.it, clinica specializzata in procreazione assistita, ho realizzato un completo restyling, trasformando un sito inizialmente basato su un tema con WP Bakery e un elevato numero di plugin in una soluzione interamente custom. L'obiettivo principale è stato migliorare sia le performance che la manutenibilità del sito, riducendo drasticamente il numero di plugin e sviluppando una struttura più leggera, scalabile ed efficiente.\bUna delle sfide più significative è stata l’ottimizzazione delle prestazioni: grazie a un codice più pulito e a interventi mirati su script e risorse, i valori dei Core Web Vitals sono passati da 4 a 60, garantendo un sito più veloce, fluido e user-friendly.\bIl nuovo sito non solo offre un'esperienza di navigazione più intuitiva e accessibile, ma è anche più stabile e performante, assicurando una gestione più efficiente dei contenuti e un impatto positivo sulla SEO e sull’esperienza utente.",
       "detail": "More info"
     }
   },
