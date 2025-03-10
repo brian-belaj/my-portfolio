@@ -15,7 +15,7 @@ const ProjectDetail = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar hideLinks={true} />
       {/* Hero con due colonne */}
       <section className="container mx-auto px-6 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">

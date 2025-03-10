@@ -3,7 +3,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { useTranslation } from 'react-i18next';
 
-const Navbar = () => {
+const Navbar = ({ hideLinks = false }) => {
   const { t, i18n } = useTranslation();
 
   const navigation = [
@@ -37,51 +37,27 @@ const Navbar = () => {
                 Brian Belaj | Portfolio
               </a>
             </div>
-            <div className="hidden sm:ml-6 sm:flex sm:items-center">
-              <div className="flex space-x-4">
-                {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className={classNames(
-                      'text-gray-800 hover:bg-gray-100 hover:text-gray-900 rounded-md px-3 py-2 text-sm font-medium'
-                    )}
-                  >
-                    {item.name}
-                  </a>
-                ))}
+            {!hideLinks && (
+              <div className="hidden sm:ml-6 sm:flex sm:items-center">
+                <div className="flex space-x-4">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className={classNames(
+                        'text-gray-800 hover:bg-gray-100 hover:text-gray-900 rounded-md px-3 py-2 text-sm font-medium'
+                      )}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
               </div>
-              {/* Language selector */}
-              <div className="ml-4">
-                <button onClick={() => i18n.changeLanguage('it')} className="text-sm font-medium text-gray-800 px-2">
-                  🇮🇹 IT
-                </button>
-                <button onClick={() => i18n.changeLanguage('en')} className="text-sm font-medium text-gray-800 px-2">
-                  🇬🇧 EN
-                </button>
-              </div>
-            </div>
+            )}
           </div>
-        </div>
-      </div>
 
-      {/* Mobile menu */}
-      <DisclosurePanel className="sm:hidden">
-        <div className="space-y-1 px-2 pt-2 pb-3">
-          {navigation.map((item) => (
-            <DisclosureButton
-              key={item.name}
-              as="a"
-              href={item.href}
-              className={classNames(
-                'block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-gray-900'
-              )}
-            >
-              {item.name}
-            </DisclosureButton>
-          ))}
-          {/* Mobile Language Selector */}
-          <div className="flex justify-center pt-2">
+          {/* Language selector */}
+          <div className="ml-4">
             <button onClick={() => i18n.changeLanguage('it')} className="text-sm font-medium text-gray-800 px-2">
               🇮🇹 IT
             </button>
@@ -90,7 +66,27 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-      </DisclosurePanel>
+      </div>
+
+      {/* Mobile menu */}
+      {!hideLinks && (
+        <DisclosurePanel className="sm:hidden">
+          <div className="space-y-1 px-2 pt-2 pb-3">
+            {navigation.map((item) => (
+              <DisclosureButton
+                key={item.name}
+                as="a"
+                href={item.href}
+                className={classNames(
+                  'block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-gray-900'
+                )}
+              >
+                {item.name}
+              </DisclosureButton>
+            ))}
+          </div>
+        </DisclosurePanel>
+      )}
     </Disclosure>
   );
 };
