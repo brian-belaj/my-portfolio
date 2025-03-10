@@ -146,5 +146,10 @@ export const skills = [
     id: 12,
     name: 'Github',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg',
+  },
+  {
+    id: 13,
+    name: 'NextJs',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg',
   }
 ];
