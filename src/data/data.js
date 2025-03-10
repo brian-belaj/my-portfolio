@@ -99,28 +99,28 @@ export const skills = [
   },
   {
     id: 3,
-    name: 'JavaScript',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+    name: 'NextJs',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg',
   },
   {
     id: 4,
+    name: 'Vite',
+    logo: 'https://vitejs.dev/logo.svg',
+  },
+  {
+    id: 5,
     name: 'Tailwind CSS',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Node.js',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Git',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg',
-  },
-  {
-    id: 7,
-    name: 'Vite',
-    logo: 'https://vitejs.dev/logo.svg',
   },
   {
     id: 8,
@@ -146,10 +146,5 @@ export const skills = [
     id: 12,
     name: 'Github',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg',
-  },
-  {
-    id: 13,
-    name: 'NextJs',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg',
   }
 ];
