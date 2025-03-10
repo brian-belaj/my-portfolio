@@ -16,7 +16,7 @@ Sviluppo interfacce su misura, curando ogni dettaglio per garantire un’esperie
 Se hai bisogno di un sito web efficace e ben strutturato, contattami per trasformare la tua idea in una soluzione concreta.</p>
         {/* Lista delle competenze */}
         <div className="mt-8">
-          <h2 className="font-orbitron text-2xl font-bold text-gray-800">Tecnologie che utilizzo</h2>
+          <h2 className="font-orbitron text-3xl font-bold text-gray-800">Tecnologie che utilizzo</h2>
           <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {skills.map((tech, index) => (
               <div key={index} className="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
