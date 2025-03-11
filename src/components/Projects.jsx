@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-100">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-gray-800 font-orbitron">{t("projects.title")}</h2>
+        <h2 className="text-3xl font-bold text-gray-800 font-orbitron">{t("projects.sectiontitle")}</h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden">

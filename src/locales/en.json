@@ -14,6 +14,7 @@
     "detail": "More info"
   },
   "projects": {
+    "sectiontitle": "Projects",
     "sanlorenzo": {
       "title": "Sanlorenzo Charter Fleet",
       "description": "Sanlorenzo Charterfleet was a project that allowed me to apply my expertise in developing custom WordPress themes.\bWhat I Did:\bWordPress Theme Development: I built a WordPress theme from scratch, avoiding pre-made themes and page builders to ensure maximum flexibility and optimized performance.\bLayout with Bootstrap: I used Bootstrap to create a modern, responsive layout, ensuring the site displayed perfectly on any device.\bData Management with PHP: I implemented custom functionalities using PHP to dynamically manage data, such as yacht fleet displays and contact details.\bPerformance Optimization: I optimized the code and resources to ensure fast loading times.\bIntegration of Advanced Features: I incorporated features such as online booking and photo gallery management.\bTechnologies Used:\bWordPress, Bootstrap, PHP, HTML/CSS/JavaScript, MySQL.\bResults:\bA fully customized website that reflects the elegance and exclusivity of the Sanlorenzo brand.\bImproved performance and usability, with positive feedback from end users.\bA scalable and easy-to-manage solution for the client.",
