@@ -1,0 +1,31 @@
+name: Automatic Deploy
+
+on:
+  schedule:
+    # Imposta l'intervallo. Qui è ogni giorno alle 00:00 UTC.
+    - cron: '0 0 * * *'  # Puoi personalizzare la frequenza qui (cron format)
+  workflow_dispatch:  # Permette di avviare l'azione manualmente
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout del codice
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Configura Git
+    - name: Configure Git
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+
+    # Crea un commit vuoto per attivare il deploy su Netlify
+    - name: Create commit
+      run: |
+        git add .
+        git commit -m "Trigger deploy"
+        git push origin main  # Assicurati di usare il nome corretto del tuo branch
+
+    # Puoi anche aggiungere qui un'azione per eseguire script di build prima del commit se necessario
