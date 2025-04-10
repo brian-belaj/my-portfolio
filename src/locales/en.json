@@ -6,7 +6,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "specialization": "Web Developer"
+    "specialization": "Web Developer",
+    "contact": "Contact Me"
   },
   "about": {
     "title": "About Me",
