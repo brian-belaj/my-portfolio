@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useProjects } from '../data/data'; // Importa useProjects
 import Contact from '../components/Contact';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -48,6 +49,8 @@ const ProjectDetail = () => {
 
       {/* Componente Contact */}
       <Contact projectContact={project.contactInfo} />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
