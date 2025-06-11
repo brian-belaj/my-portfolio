@@ -35,6 +35,11 @@
       "title": "Genera PMA",
       "description": "Per il sito generapma.it, clinica specializzata in procreazione assistita, ho realizzato un completo restyling, trasformando un sito inizialmente basato su un tema con WP Bakery e un elevato numero di plugin in una soluzione interamente custom. L'obiettivo principale è stato migliorare sia le performance che la manutenibilità del sito, riducendo drasticamente il numero di plugin e sviluppando una struttura più leggera, scalabile ed efficiente.\bUna delle sfide più significative è stata l’ottimizzazione delle prestazioni: grazie a un codice più pulito e a interventi mirati su script e risorse, i valori dei Core Web Vitals sono passati da 4 a 60, garantendo un sito più veloce, fluido e user-friendly.\bIl nuovo sito non solo offre un'esperienza di navigazione più intuitiva e accessibile, ma è anche più stabile e performante, assicurando una gestione più efficiente dei contenuti e un impatto positivo sulla SEO e sull’esperienza utente.",
       "detail": "More info"
+    },
+    "bluegame": {
+      "title": "Bluegame Yachts",
+      "description": "For the bluegame.com website, I developed a highly customized WordPress theme, avoiding pre-made themes or page builders to ensure maximum flexibility and optimized performance. I used Bootstrap to create a modern, responsive layout, ensuring the site displayed perfectly on any device.\bI implemented advanced functionalities using PHP to dynamically manage data, such as yacht fleet displays and contact details. Additionally, I optimized the code and resources to ensure fast loading times.\bThe result is a fully customized website that reflects the elegance and exclusivity of the Bluegame Yachts brand, with significant improvements in performance and usability.",
+      "detail": "More info"
     }
   },
   "buttons": {
