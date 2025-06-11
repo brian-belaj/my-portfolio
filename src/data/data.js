@@ -7,6 +7,7 @@ import sanlorenzoImage from '../assets/img/sanlorenzocharterfleet-com.webp';
 import centroDemetraImage from '../assets/img/centrodemetra.webp';
 import CrottiImage from '../assets/img/Homepage-Maria-Gabriella-Crotti.webp';
 import generapmaImage from '../assets/img/genera.webp';
+import bluegameImage from '../assets/img/Bluegame.webp';
 
 // Hook per ottenere i progetti tradotti
 export const useProjects = () => {
@@ -45,6 +46,14 @@ export const useProjects = () => {
       link: 'https://generapma.it',
       detail: t("projects.detail"),
     },
+    {
+      id: 5,
+      title: t("projects.bluegame.title"),
+      image: bluegameImage,
+      description: t("projects.bluegame.description"),
+      link: 'https://www.bluegame.it',
+      detail: t("projects.detail"), 
+    }
   ], [t]);
 };
 
